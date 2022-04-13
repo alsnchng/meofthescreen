@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="project3.css" rel="stylesheet">
+
+  <title>Title of Your Website</title>
+
+</head>
+
+<body>
+<div class="img">
+<image src="P2.jpg" width="1280px" height="800px">
+</image></div>
+
+<a href="project3.html" class="B1">.</a>
+<a href="HomeB.html" class="B2">.</a>
+
+<div class="data">
+A great deal of Apple Pay usage goes towards my coffee expense, or grabbing a quick bite as it is more convenient than rummaging for my wallet
+</div>
+<div class="data2">
+  An accessible and quick method of payment for uploading presto card before boarding the Go Train, travel expense is only 20% as it is used for school commutes
+  <br><br>(on average 2 times per week)
+</div>
+<div class="data3">
+  Given that tap is only permitted for purchases under $100, 10% of Apple Pay is used for items that meet the criteria
+</div>
+
+<style type="text/css">
+  #div1, #div2, #div3 {  
+    visibility: hidden;  
+  }
+</style>
+<script>
+  function show(id) {
+    document.getElementById(id).style.visibility = "visible";
+  }
+  function hide(id) {
+    document.getElementById(id).style.visibility = "hidden";
+  }
+</script>
+
+<div onMouseOver="show('div1')" onMouseOut="hide('div1')">
+  <div id="div1">Div 1 Content</div>
+</div>
+<div onMouseOver="show('div2')" onMouseOut="hide('div2')">
+  <div id="div2">Div 2 Content</div>
+</div>
+<div onMouseOver="show('div3')" onMouseOut="hide('div3')">
+  <div id="div3">Div 3 Content</div>
+</div>
+
+</body>
+</html>

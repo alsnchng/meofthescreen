@@ -1,0 +1,156 @@
+.img{
+	position: absolute;
+}
+
+.B1 {
+	position: absolute;
+    background-color:transparent;
+    border-radius:50px;
+    border:2px solid black;
+    width: 10px;
+    height: 103px;
+    cursor:pointer;
+    color:white;
+    font-size:1px;
+    margin: 195px 0px 0px 503px;
+    text-decoration:none;
+}
+.B1:hover {
+    background-color: lightgrey;
+}
+
+.B2 {
+	position: absolute;
+    background-color:transparent;
+    border-radius:50px;
+    border:2px solid black;
+    width: 135px;
+    height: 10px;
+    cursor:pointer;
+    color:white;
+    font-size:1px;
+    margin: 713px 0px 0px 230px;
+    text-decoration:none;
+}
+.B2:hover {
+    background-color: lightgrey;
+}
+
+.B3 {
+	position: absolute;
+    background-color:transparent;
+    border-radius:6px;
+    border:2px solid black;
+    width: 88px;
+    height: 55px;
+    cursor:pointer;
+    color:white;
+    font-size:1px;
+    margin: 101px 0px 0px 154.5px;
+    text-decoration:none;
+}
+.B3:hover {
+    background-color: transparent;
+}
+
+
+.N1 {
+	position: absolute;
+    background-color: black;
+    border-radius:44px;
+    border:2px solid black;
+    width: 273px;
+    height: 167px;
+    cursor:pointer;
+    color: white;
+    font: 18px Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 5px;
+    margin: 326px 0px 0px 156px;
+    text-decoration:none;
+}
+.N1:hover {
+    background-color: transparent;
+    color: transparent;
+}
+
+.N2 {
+	position: absolute;
+    background-color: black;
+    border-radius:44px;
+    border:2px solid black;
+    width: 273px;
+    height: 30px;
+    cursor:pointer;
+    color: white;
+    font: 18px Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 5px;
+    margin: 576px 0px 0px 156px;
+    text-decoration:none;
+}
+.N2:hover {
+    background-color: transparent;
+    color: transparent;
+}
+
+
+.data {
+    position: absolute;
+    background-color: transparent;
+    border-radius:25px;
+    border:2px solid black;
+    width: 300px;
+    height: 102px;
+    cursor:pointer;
+    color: transparent;
+    font: 14px Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 5px;
+    margin: 165px 0px 0px 141px;
+    text-decoration:none;
+}
+.data:hover {
+    background-color: black;
+    color: white;
+}
+
+.data2 {
+    position: absolute;
+    background-color: transparent;
+    border-radius:25px;
+    border:2px solid black;
+    width: 300px;
+    height: 102px;
+    cursor:pointer;
+    color: transparent;
+    font: 14px Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 5px;
+    margin: 344px 0px 0px 141px;
+    text-decoration:none;
+}
+.data2:hover {
+    background-color: black;
+    color: white;
+}
+
+.data3 {
+    position: absolute;
+    background-color: transparent;
+    border-radius:25px;
+    border:2px solid black;
+    width: 300px;
+    height: 102px;
+    cursor:pointer;
+    color: transparent;
+    font: 14px Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px 5px;
+    margin: 523px 0px 0px 141px;
+    text-decoration:none;
+}
+.data3:hover {
+    background-color: black;
+    color: white;
+}
